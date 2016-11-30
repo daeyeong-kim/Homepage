@@ -1,0 +1,95 @@
+
+body{
+  width:1000px;
+  margin:0 auto;
+}
+
+#gall{
+    margin-top: 575px;
+    position: absolute;
+    margin-left: 200px;
+    cursor:pointer;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+#box{
+  position:absolute;
+  border: 0px solid red;
+  width:1000px;
+  height:800px;
+  margin-top:50px;
+}
+
+#sample{
+  position:absolute;
+  margin-top: 400px;
+  margin-left: 500px;
+  border:0px solid red;
+}
+#sample1{
+  position:absolute;
+  margin-top: 400px;
+  margin-left: 200px;
+  border:0px solid red;
+}
+#sample2{
+  margin-top:200px;
+  margin-left:200px;
+  position:absolute;
+  border:0px solid red;
+}
+#sample3{
+  position:absolute;
+  margin-top: 200px;
+  margin-left: 500px;
+  border:0px solid red;
+}
+
+
+/*추천사이트 리스트 지정*/
+.list-group
+{
+  position:absolute;
+  margin-top: 565px;
+  margin-left: 680px;
+  list-style: none;
+}
+
+
+.list
+{
+  padding:10px;
+}
+
+/*코스 리스트 글 목록 포지션 지정*/
+.list-course
+{
+  position:absolute;
+  margin-left: 760px;
+  margin-top: -5px;
+}
+
+/*소개글 폰트지정*/
+.intro
+{
+  font-size:15px;
+  font-weight:bold;
+  font-family: "Times New Roman", Times, serif;
+  position:absolute;
+}
+
+/*백그라운드 투명도 포지션지정 */
+.bgimg-1{
+    opacity: 0.7;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*백그라운드 이미지 */
+.bgimg-1 {
+    background-image: url('img/background.jpg');
+    min-height: 100%;
+}
